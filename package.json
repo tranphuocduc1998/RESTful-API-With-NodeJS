@@ -1,0 +1,19 @@
+{
+  "name": "restful-api-with-nodejs",
+  "version": "1.0.0",
+  "description": "Một dự án hướng dẫn RESTful API với Nodejs (Xây dựng một shop API cơ bản)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
