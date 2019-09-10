@@ -17,10 +17,13 @@
         7. CONNECT: thiết lập một kết nối tới server theo URI.
         8. OPTIONS: mô tả các tùy chọn giao tiếp cho resource.
         9. TRACE: thực hiện một bài test loop - back theo đường dẫn đến resource.
-3. Sử lý lỗi và cài đặt dự án nâng cao
-    1. Cài đặt nodemon: `$` npm install --save-dev nodemon   //nodemon là một npm được sử dụng cho dev kiểm tra và sử lý lỗi
+3. Xử lý lỗi và cài đặt dự án nâng cao
+    1. Cài đặt nodemon: `$` npm install --save-dev nodemon   //nodemon là một npm được sử dụng cho dev kiểm tra và Xử lý lỗi
     2. Thêm trong package.json dòng "start": "nodemon server.js" tại vị trí "scripts"
     3. Sử dụng lênh: `$` npm start   //dùng để gọi nodemon server.js có trong package.json 
     4. Khi bạn thay đỗi 1 dòng code thì server sẽ được khởi động lại và cập nhât mới
+4. Phân tích cú pháp và Xử lý CORS
+    1. Cài đặt body-parser: `$` npm install --save body-parser
+    2. Xử lý CORS
 
 #Kết Thúc Nội Dung
