@@ -2,6 +2,7 @@ const express = require('express');
 
 const router = express.Router();
 
+//Sử lý GET yêu cầu đối với /orders
 router.get('/', (req, res, next)=>{
     res.status(200).json({
         message: 'Sử lý GET yêu cầu đối với /orders'
