@@ -25,5 +25,11 @@
 4. Phân tích cú pháp và Xử lý CORS
     1. Cài đặt body-parser: `$` npm install --save body-parser
     2. Xử lý CORS
-
+5. MongoDB và Mongoose
+    1. Sử dụng cloud mongoDB
+    2. Cài đặt mongoose: `$` npm install --save mongoose
+6. Mongoose validation
+    1. Trong phần models của products sử thuộc tính trong Schema gồm type và thêm required: true
+    2. thiết kế lại json
+    
 #Kết Thúc Nội Dung
