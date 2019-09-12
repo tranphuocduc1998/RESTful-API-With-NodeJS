@@ -31,5 +31,8 @@
 6. Mongoose validation
     1. Trong phần models của products sử thuộc tính trong Schema gồm type và thêm required: true
     2. thiết kế lại json
+
+7. Quản lý đơn đặt hàng
+    1. tạo models cho orders
     
 #Kết Thúc Nội Dung
