@@ -40,5 +40,9 @@
 
 9. Uploading một ảnh.
     1. Cài đặt multer: `$` npm install --save multer
+
+10. Bổ sung đăng ký người dùng 
+    1. Cài đặt bộ mã hóa bcrypt: `$` npm install --save bcrypt
+
     
 # Kết Thúc Nội Dung

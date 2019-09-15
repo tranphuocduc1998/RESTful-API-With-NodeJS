@@ -122,7 +122,6 @@ router.patch('/:orderId', (req, res, next) => {
 router.delete('/:orderId', (req, res, next) => {
     const id = req.params.orderId;
     Order.remove({ _id: id })
-        .populate('_productId')
         .exec()
         .then(result => {
             res.status(200).json({
