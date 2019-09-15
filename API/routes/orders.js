@@ -9,6 +9,7 @@ const Product = require('../models/product');
 router.get('/', (req, res, next) => {
     Order.find()
         .select('quantity _productId _id')
+        .populate('_productId', 'name')
         .exec()
         .then(docs => {
             const response = {
@@ -34,6 +35,7 @@ router.get('/', (req, res, next) => {
 
 router.post('/', (req, res, next) => {
     Product.findById(req.body._productId)
+        .populate('_productId', 'name')
         .exec()
         .then(product => {
             if (!product) {
@@ -73,6 +75,7 @@ router.get('/:orderId', (req, res, next) => {
     const id = req.params.orderId;
     Order.findById(id)
         .select('quantity _productId _id')
+        .populate('_productId')
         .exec()
         .then(doc => {
             if (doc) {
@@ -119,6 +122,7 @@ router.patch('/:orderId', (req, res, next) => {
 router.delete('/:orderId', (req, res, next) => {
     const id = req.params.orderId;
     Order.remove({ _id: id })
+        .populate('_productId')
         .exec()
         .then(result => {
             res.status(200).json({

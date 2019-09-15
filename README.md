@@ -1,4 +1,4 @@
-#Tìm Hiểu Về REST API với NODEJS
+# Tìm Hiểu Về REST API với NODEJS
 
 1. Hướng dẫn đầu tiên: Tạo một REST API với Nodejs
     1. Sử dụng câu lệnh: `$` npm init  //để tạo gói .json cho npm
@@ -34,5 +34,8 @@
 
 7. Quản lý đơn đặt hàng
     1. tạo models cho orders
+
+8. Truy vấn Populating với Mongoose.
+    1. sử dụng thuộc tính .populate('<name collection>') nằm trên .exec() truy vấn tới <collection> tới Id đang dùng.
     
-#Kết Thúc Nội Dung
+# Kết Thúc Nội Dung
