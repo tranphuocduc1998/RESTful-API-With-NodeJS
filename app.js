@@ -9,6 +9,8 @@ const ordersRoutes = require('./API/routes/orders');
 
 mongoose.connect('mongodb+srv://node-rest:' + environment.MONGO_PASS + '@node-rest-s7o6w.gcp.mongodb.net/test?retryWrites=true&w=majority');
 mongoose.Promise = global.Promise;
+
+app.use('/uploads',express.static('uploads'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 

@@ -30,12 +30,15 @@
     2. Cài đặt mongoose: `$` npm install --save mongoose
 6. Mongoose validation
     1. Trong phần models của products sử thuộc tính trong Schema gồm type và thêm required: true
-    2. thiết kế lại json
+    2. Thiết kế lại json
 
 7. Quản lý đơn đặt hàng
-    1. tạo models cho orders
+    1. Tạo models cho orders
 
 8. Truy vấn Populating với Mongoose.
-    1. sử dụng thuộc tính .populate('<name collection>') nằm trên .exec() truy vấn tới <collection> tới Id đang dùng.
+    1. Sử dụng thuộc tính .populate('<name collection>') nằm trên .exec() truy vấn tới <collection> tới Id đang dùng.
+
+9. Uploading một ảnh.
+    1. Cài đặt multer: `$` npm install --save multer
     
 # Kết Thúc Nội Dung
