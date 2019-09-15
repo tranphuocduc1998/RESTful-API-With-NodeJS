@@ -44,5 +44,12 @@
 10. Bổ sung đăng ký người dùng 
     1. Cài đặt bộ mã hóa bcrypt: `$` npm install --save bcrypt
 
+11. Thêm người dùng đăng nhập và JWT Signning
+    1. Cài đặt JWT: `$` npm install --save jsonwebtoken
+
+12. Bảo vệ JWT
+
+13. Bổ sung Controllers
+
     
 # Kết Thúc Nội Dung
